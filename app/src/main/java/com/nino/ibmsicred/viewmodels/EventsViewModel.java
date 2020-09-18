@@ -42,7 +42,7 @@ public class EventsViewModel extends AndroidViewModel {
      * init - método que chama a API que obtém os detalhes do evento.
      *********************************************************************************************/
     public void getEvents() {
-        eventsRepository.getEvents();
+        eventsRepository.getEventsList();
     }
 
     /**********************************************************************************************
